@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(154, 75, 228);
+}
+
+
+
+h1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.items-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.item-box{
+    height: 180px;
+    width: 200px;
+  
+    text-align: center;
+}
+
+.img-set{
+  margin-top: 10px;
+    
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+h3:hover{
+    color: rgb(138, 92, 181);
+    cursor: pointer;
+}
+
+.banner{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(215, 214, 214);
+    
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-1{
+    margin-top: 30px;
+}
+
+.info-table>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 80px;
+    color: black;
+}
+
+table {
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 10%;
+}
+
+th{
+    border: 2px solid black;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(181, 122, 235);
+    font-weight: bold;
+    font-size: large;
+}
+
+tr{
+    border:2px solid black;
+    height: 40px;
+    width: 300px;
+}
+td{
+    border: 2px solid black;
+    height: 40px;
+    width: 300px;
+}
+
+.desc{
+    padding: 30px;
+}
+
+.desc>h2{
+    font-size: 40px;
+    color: rgb(79, 77, 77);
+}
+
+.desc>p{
+    margin-top: 10px;
+    color:  rgb(79, 77, 77);
+    font-weight: 800;
+}
+
+.list{
+    margin-top: 50px;
+}
+
+ul{
+ margin-left: 20px;
+ color: rgb(79, 77, 77) ;
+}
+
+#fs{
+    margin-top: 30px;
+}
+
+#po{
+    margin-top: 30px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+   
+    
+}
